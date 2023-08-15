@@ -1,0 +1,147 @@
+:root {
+    --black-900: #3d5555;
+}
+::selection {
+    background-color: #2d6969;
+}
+body {
+    min-height: 100vh;
+
+}
+header {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+header .btn {
+    outline: none;
+    border: none;
+    background-color: var(--black-900);
+    color: white;
+    padding: 5px 25px;
+    cursor: pointer;
+    user-select: none;
+} 
+
+
+header h3 {
+    text-align: center;
+    color: var(--black-900);
+    text-transform: capitalize;
+    font-size: 30px;
+    margin: 0;
+}
+h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--black-900);
+}
+
+.boxs {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.box {
+    position: relative;
+}
+section .box {
+    background-color: #009d9d;
+    padding: 15px 10px 10px 10px;
+    border-radius: 5px 0;
+    color: white;
+    font-size: 17px;
+    line-height: 1.5;
+    position: relative;
+    height: 13px;
+    cursor: pointer;
+} 
+
+.box::before
+{
+    content: attr(price);
+    display: block;
+    position: absolute;
+    text-align: center;
+    font-size: 19px;
+    font-weight: bold;
+    border-radius: 3px;
+    min-width: 100px;
+    max-width: 100%;
+    bottom: 0;
+    left: 0;
+    border-radius: 5px;
+    background-color: darkviolet;
+
+}
+
+.box::after {
+    content: attr(title);
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 4px;
+    text-align: center;
+    font-size: 19px;
+    font-weight: bold;
+    border-radius: 3px;
+    min-width: 100px;
+    max-width: 100%;
+    background-color: indianred;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-radius: 12px;
+}
+
+.box article {
+    background-color: gray;
+    color: white;
+    padding: 30px 10px 10px 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.content.hide {
+    opacity: 0;
+    pointer-events: none;
+    display: none;
+}
+section p {
+    padding-top: 30px;
+    margin: 0;
+    user-select: none;
+    position: absolute;
+    left: 0;
+    top: 38px;
+    padding: 10px;
+    background-color: var(--black-900);
+    z-index: 100;
+    transition: opacity .6s ease-in-out;
+}
+
+.box[open="false"] p {
+    opacity: 0;
+    pointer-events: none;
+}
+.box[open="true"] p {
+    opacity: 1;
+    pointer-events: auto;
+}
+main p {
+    position: relative !important;
+}
+section.content .box {
+    background-color: #899a9a;
+}
+section.content .box::after {
+    background-color: #bcbcbc;
+    color: var(--black-900);
+}
+section.content p {
+    display: block;
+}

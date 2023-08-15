@@ -1,0 +1,104 @@
+{
+    "beef": [
+        {
+            "name": "Fried Beef",
+            "description": "Fried beef is very delicious and very light on the stomach."
+        },
+        {
+            "name": "Boiled Beef",
+            "description": "Boiled beef is very healthy, however, it is not that tasty."
+        },
+        {
+            "name": "Grilled Beef",
+            "description": "On top of a coal fire that is very hot, this kind is cooked and added to it are hot spices."
+        },
+        {
+            "name": "Alfredo Beef",
+            "description": "This is the easiest, creamiest beef alfredo you will ever make."
+        },
+        {
+            "name": "Lemon Pepper Beef",
+            "description": "This lemon pepper beef makes beef exciting again."
+        },
+        {
+            "name": "Roast Beef",
+            "description": "You need this classic beef recipe in your arsenal."
+        },
+        {
+            "name": "Biryani Beef",
+            "description": "Beef biryani is such an easy and delicious dinner. Served over fluffy white rice, it’s hard to resist."
+        },
+        {
+            "name": "Tamale Pie",
+            "description": "A layer of cornbread topped with cheesy shredded beef."
+        }
+    ], 
+    "chicken" : [
+      {
+        "name": "Fried chicken",
+        "description": "Fried chicken is very delicious and very light on the stomach"
+      },
+      {
+        "name": "Boiled chicken",
+        "description": "Boiled chicken is very healthy, however, it is not that tasty."
+      },
+      {
+        "name": "Grilled chicken",
+        "description": "On top of a coal fire that is very hot, this kind is cooked and added to it are hot spices."
+      },
+      {
+        "name": "Alfredo chicken",
+        "description": "This is the easiest, creamiest chicken alfredo you will ever make."
+      },
+      {
+        "name": "Lemon Pepper Chicken",
+        "description": "This lemon pepper chicken makes chicken exciting again."
+      },
+      {
+        "name": "Roast chicken",
+        "description": "You need this classic recipe in your arsenal."
+      },
+      {
+        "name": "Biryani chicken",
+        "description": "Chicken biryani is such an easy and delicious dinner. Served over fluffy white rice, it’s hard to resist."
+      },
+      {
+        "name": "Tamale Pie",
+        "description": "A layer of cornbread topped with cheesy shredded chicken."
+      }
+    ],
+    "sushi": [
+        {
+            "name": "Nigiri Sushi",
+            "description": "Nigiri sushi consists of a small ball of vinegared sushi rice topped with various fresh ingredients like fish, seafood, or egg."
+        },
+        {
+            "name": "Maki Sushi",
+            "description": "Maki sushi, also known as sushi rolls, are made by wrapping sushi rice and fillings in a sheet of seaweed (nori) and cutting it into bite-sized pieces."
+        },
+        {
+            "name": "Sashimi Sushi",
+            "description": "Sashimi is thinly sliced, raw fish or seafood served without rice. It highlights the natural flavors of the fish and is often served with soy sauce and wasabi."
+        },
+        {
+            "name": "Uramaki Sushi",
+            "description": "Uramaki sushi, also called inside-out rolls, are sushi rolls with the rice on the outside and the seaweed and fillings on the inside. They often have a layer of sesame seeds or fish roe on the outside."
+        },
+        {
+            "name": "Temaki Sushi",
+            "description": "Temaki sushi, or hand rolls, are cone-shaped sushi rolls wrapped in nori and filled with sushi rice, fish, vegetables, and other toppings."
+        },
+        {
+            "name": "Chirashi Sushi",
+            "description": "Chirashi sushi is a bowl of sushi rice topped with a variety of sashimi, vegetables, and other ingredients, often served beautifully arranged in a colorful manner."
+        },
+        {
+            "name": "Inari Sushi",
+            "description": "Inari sushi is made by filling seasoned sushi rice into pockets of fried tofu (aburaage). The sweet and savory tofu pockets give a unique flavor to the sushi."
+        },
+        {
+            "name": "Naruto Sushi",
+            "description": "Naruto sushi, also known as narutomaki or fish cake, is a colorful spiral-shaped fish cake commonly used as a decorative topping for sushi rolls and bowls."
+        }
+    ]
+}
