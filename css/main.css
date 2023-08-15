@@ -61,30 +61,14 @@ section .box {
     cursor: pointer;
 } 
 
-.box::before
-{
-    content: attr(price);
-    display: block;
-    position: absolute;
-    text-align: center;
-    font-size: 19px;
-    font-weight: bold;
-    border-radius: 3px;
-    min-width: 100px;
-    max-width: 100%;
-    bottom: 0;
-    left: 0;
-    border-radius: 5px;
-    background-color: darkviolet;
 
-}
 
 .box::after {
     content: attr(title);
     display: block;
     position: absolute;
     top: 0;
-    right: 0;
+    left: 0;
     padding: 4px;
     text-align: center;
     font-size: 19px;
